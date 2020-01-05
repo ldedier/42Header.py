@@ -1,5 +1,6 @@
 # 42Header.py
-useful class to generate 42 norm's proof C files
+
+Useful class to generate 42 norm's proof C files.
 
 ## Usage
 
@@ -7,6 +8,5 @@ useful class to generate 42 norm's proof C files
 
 ## Functions
 
-* HeaderWriter.openFile("Sample.c") will return the fd of Sample.c in **writing mode** after adding the 42Header
-
-* HeaderWriter.writeHeader(fd, "Sample.c") will add the 42Header to the fd considering fd is the file descriptor of Sample.c in **writing mode**
+* HeaderWriter.openFile("Sample.c") will return the fd of Sample.c in **writing mode** after adding the 42Header.
+* HeaderWriter.writeHeader(fd, "Sample.c") will add the 42Header to fd, considering that fd is the file descriptor of Sample.c in **writing mode**.

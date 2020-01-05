@@ -9,4 +9,4 @@ useful class to generate 42 norm's proof C files
 
 * HeaderWriter.openFile("Sample.c") will return the fd of Sample.c in **writing mode** after adding the 42Header
 
-* HeaderWriter.writeHeader(fd) will add the 42Header to the fd 
+* HeaderWriter.writeHeader(fd, "Sample.c") will add the 42Header to the fd considering fd is the file descriptor of Sample.c in **writing mode**

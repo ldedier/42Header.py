@@ -1,4 +1,4 @@
-# 42Header.py
+# HeaderWriter.py
 
 Useful class to generate 42 norm's proof C files.
 

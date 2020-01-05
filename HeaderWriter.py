@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    42Header.py                                        :+:      :+:    :+:    #
+#    HeaderWriter.py                                    :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ldedier <ldedier@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/01/05 17:53:47 by ldedier           #+#    #+#              #
-#    Updated: 2020/01/05 17:53:47 by ldedier          ###   ########.fr        #
+#    Created: 2020/01/05 19:12:07 by ldedier           #+#    #+#              #
+#    Updated: 2020/01/05 19:12:07 by ldedier          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,7 +40,7 @@ class HeaderWriter:
 	@classmethod
 	def openFile(HeaderWriter, name):
 		try:
-			fd = open(path, "w")
+			fd = open(name, "w")
 			HeaderWriter.writeHeader(fd, name);
 			return fd
 		except Exception as e:
